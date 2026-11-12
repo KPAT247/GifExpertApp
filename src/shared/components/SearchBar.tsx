@@ -16,7 +16,7 @@ export const SearchBar = ({placeHolder = 'Buscar', onQuery}: Props) => {
 
 
     return () => {
-      clearTimeout(timeOutId);
+      clearTimeout(timeOutId);  
     }
 
   }, [query, onQuery]);
